@@ -1,0 +1,149 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Hey", "Hi there"],
+      "responses": ["Hello! How may I assist you?", "Hi! How can I help you today?"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "Goodbye"],
+      "responses": ["Goodbye! Have a great day.", "Bye!"]
+    },
+    {
+      "tag": "name",
+      "patterns": ["what is your name?","name"],
+      "responses": ["I am college chatbot"]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thank you", "Thanks", "Appreciate it"],
+      "responses": ["You're welcome.", "Anytime!"]
+    },
+    {
+      "tag": "enquiry",
+      "patterns": ["What courses do you offer?", "What are the available scholarships?", "What is the admission deadline?"],
+      "responses": ["We offer a wide range of courses including Computer Science, Business Management, and Engineering. Admission requirements vary depending on the course. The tuition fee also varies by course. Please check our website for more information.", "We have various scholarships available for students. The admission deadline is on August 31."]
+    },
+    {
+      "tag": "studentRequirements",
+      "patterns": ["what are the student requirements for admission?","entry requirements","admission requirements"],
+      "responses": ["Academic Level\nNEB +2 overall aggregate of 2.2 CGPA (55%) or above with each subject (theory and practical) grade D+ or above, and SEE Mathematics score of C+ ( 50%) or above.\nFor A-Levels, a minimum of 3.5 credits and atleast a grade of D and above.\n\nEnglish Proficiency\nEnglish NEB XII Marks greater or equals to 60% or 2.4 GPA\nFor Level 4 or Year 1 BIT\nPass in General Paper or English Language or IELTS 5.5 or PTE 47/ Meeting UCAS Tariff points of 80.\nFor Level 4 or Year 1 BBA\nPass in General Paper or English Language or IELTS 5.5 or PTE 47/ Meeting UCAS Tariff points of 96."]
+    },
+    {
+      "tag": "classes",
+      "patterns": ["how many classes will be there in a day","how long are the classes?"],
+      "responses": ["There may be two or three classes per day. Each class will be of 1 hour and 30 minutes."]
+    },
+    {
+       "tag": "teachingStyle",
+     "patterns": ["what is the teaching style of this college?","Is the teaching pattern different from other college?","what is the teaching format?"],
+     "responses": ["Our college has different teaching patterns than other colleges of Nepal. We adopt a British teaching methodology, following the LTW techniques which stands for Lecture, Tutorial and Workshop.\nYou can provide us with your contact details and our counselors shall reach out to you and provide you with further details."]
+    },
+    {
+      "tag": "exams",
+      "patterns": ["what are the exams like?","What is the exam pattern"],
+      "responses": ["There are assignments which carry more weight than your written exams. The assignments have deadlines which you should not exceed if you want to get better marks."]
+    },
+    {
+      "tag": "admission",
+      "patterns": ["How can I apply for admission?", "What documents do I need to submit?", "What is the admission process?", "Is there an entrance exam?"],
+      "responses": ["You can apply for admission through our website. The admission process involves submitting your academic records and other supporting documents. There is no entrance exam for most courses."]
+    },
+    {
+      "tag": "faculty",
+      "patterns": ["Who are your faculty members?", "What is the faculty-student ratio?", "Do you have any visiting professors?"],
+      "responses": ["Our faculty members are highly qualified and experienced professionals. The faculty-student ratio is 1:20. We occasionally invite visiting professors to teach special courses."]
+    },
+
+    {"tag": "libraryTimings",
+      "patterns": ["when to visit library","library timings","is library open?"],
+      "responses": ["Library works from : 09 : 00 am  to  06 : 00 pm"]
+    },
+    {
+      "tag": "location",
+      "patterns": ["location of cbit","where is cbit located?","CBIT location"],
+      "responses": ["chaitanya Bharathi institute of technology is located in Gandipet, Hyderabad near ocean park"]
+    },
+    {
+      "tag": "fee",
+      "patterns": ["how is the fee structure in cbit?","tell about fee structure","what is the fee structure?","how much is the college fee?"],
+      "responses": ["tution fee is around 1,40,000"]
+    },
+    {
+      "tag": "holidays",
+      "patterns": ["holidays","how many holidays are there in a semester?","holidays list in this semester?","is tomorrow holiday?","festival holidays"],
+      "responses": ["All the festival days are declared as holidays and saturday is also a holiday"]
+    },
+
+    {"tag": "courses",
+    "patterns": ["what courses are available", "how many courses are there in this college"],
+    "responses": ["UG COURSES & INTAKE APPROVED BY AICTE - 2021-22:\n1\tB.E- CIVIL ENGINEERING\n2\tB.E- COMPUTER SCIENCE AND ENGINEERING\n3\tB.E- ELECTRICAL & ELECTRONICS ENGINEERING\n4\tB.E- ELECTRONICS & COMMUNICATION ENGINEERING\n5\tB.E- MECHANICAL ENGINEERING\n6\tB.E- INFORMATION TECHNOLOGY\n7\tB.TECH- CHEMICAL ENGINEERING\t60\n8\tB.TECH- BIO TECHNOLOGY\n9\tB.E- ARTIFICIAL INTELLIGENCE AND DATA SCIENCE\n10\tB.E- COMPUTER SCIENCE AND ENGINEERING\n(ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)\n11\tB.E- COMPUTER SCIENCE AND ENGINEERING\n(INTERNET OF THINGS AND CYBER SECURITY INCLUDING BLOCK CHAIN TECHNOLOGY)\n12\tB.E- ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING\n\nPG COURSES & INTAKE APPROVED BY AICTE - 2021-22:-1\tMBA (MASTER OF BUSINESS ADMINISTRATION)\n2\tMCA (MASTER OF COMPUTER APPLICATIONS)\n3\tME – STRUCTURAL ENGINEERING (CIVIL)\n4\tME – CAD / CAM (MECH)\n5\tM.TECH –CSE\n6\tME – COMMUNICATION ENGINEERING (ECE)\n7\tME- POWER SYSTEMS & POWER ELECTRONICS (EEE)\n8\tME-EMBEDDED SYSTEMS AND VLSI DESIGN (ECE)\n9\tME-THERMAL ENGINEERING (MECH)\n10\tM.TECH-ARTIFICIAL INTELLIGENCE AND DATA SCIENCE"]
+    },
+
+    {"tag": "courseDuration",
+    "patterns": ["how long will be B.E or BTECH course", "how long will it take to complete B.E or BTECH course"],
+    "responses": ["Our college offers 3 year long BIT course and 3 and half year long BBA course."]
+     },
+
+    {"tag": "Location",
+    "patterns": ["location","where is cbit located","what is the location of the college"],
+    "responses": ["chaitanya Bharathi institute of technology is located in Gandipet, Hyderabad near ocean park."]
+    },
+
+    {"tag": "semesters",
+     "patterns": ["how many semesters are there in a year","how many semesters one should study in a year"],
+     "responses": ["There are two semesters in a year."]
+    },
+
+    {"tag": "fee",
+     "patterns": ["how much is the college fee","what is the fee structure","tell about fee structure"],
+      "responses": ["Tuition Fee Details\nAcademic Year 2021 - 2022\nAdmission Categories / Curse\nConvener\nB-Category\nNRI\nBE / BTECH\nRs. 1,34,000 *\nRs. 1,34,000 *\nSs,ooo\nME / MTECH\nRs. 1,51,600\nRs. 1,51,600\nMCA MBA\nRs.90,000 Rs.85,000\nRs.90,000 Rs.85,000"]
+    },
+
+    {"tag": "holidays",
+     "patterns": ["holidays","how many holidays are there in a semester?","holidays list in this semester?","is tomorrow holiday?","festival holidays"],
+     "responses": ["1. Bhogi 14-01-2022 Friday\n2. Sankranti / Pongal 15-01-2022 Saturday\n3. Republic Day 26-01-2022 Wednesday\n4. Maha Shivaratri 01-03-2022 Tuesday\n5. Holi 18-03-2022 Friday\n6. Babu Jagjivan Ram's Birthday 05.04.2022 Tuesday\n7. Dr BR, Ambedkar's Birthday 14-04-2022 Thursday\nB. Good Friday 15-04-2022 Friday\n9. Eidul Fitr (Ramzan) 03-05-2022 Tuesday\n10 Following Day of Ramzan 04-05-2022 Wednesday\n11. Bonalu 25-07-2022 Monday\n12. Shahadat Imam Hussain (R.A) 10th Moharam 09-08-2022 Tuesday\n13. Independence Day 15-08-2022 Monday\nL4 Sri Krishna Ashtami 20-08-2022 Saturday\n15. Vinayaka Chavithi 31-08-2022 Wednesday\n16. Viiaya Dasami 05-10-2022 Wednesday\n17. Following Day of Vijaya Dasami 06-10-2022 Thursday\n18. Deepavali 25-10-2022 Tuesday\n19. Kartika Purnima and Guru Nanak's Birthday  08-11-2022 Tuesday\n20. Boxing Day 26-12-2022 Monday"]
+    },
+    {
+      "tag": "sports",
+      "patterns": ["Do you have a sports program?", "What sports facilities do you have?", "Do you offer scholarships for athletes?"],
+      "responses": ["Yes, we have a sports program that offers various sports activities and competitions. We have a gymnasium, a basketball court, a soccer field, and a swimming pool. We also offer scholarships for athletes who excel in their respective sports."]
+    },
+    {
+      "tag": "food",
+      "patterns": ["Do you have a canteen in CBIT?", "What food options do you have?", "Is there a meal plan?"],
+      "responses": ["Yes, we have a cafeteria that serves a variety of food options including vegetarian and non-vegetarian dishes. We also offer a meal plan for students."]
+    },
+
+    {"tag": "funActivities",
+     "patterns": ["will there be any extra curriculum activities?","does the college conducts any fun program"],
+     "responses": ["Yes, Of course. Our college not only provides excellent education but also encourage students to take part in different curriculum activities. The college conducts yearly programs like Sports meet, Carnival, Holi festival, and Christmas. \n Also our college has basketball court, badminton court, table tennis, chess, carrom board and many more refreshment zones."]
+    },
+
+    {"tag": "facilities",
+     "patterns": ["what facilities are provided by the college?","what are the facilities of college for students", "what are the college infrastructures "],
+     "responses": ["With excellent education facilities, Our College provides various other facilities like 24 hours internet, library, classes with AC, discusson room, canteen, parking space, and student service for any students queries."]
+    },
+
+    {"tag": "fee",
+      "patterns": ["how much is the college fee","what is the fee structure"],
+      "responses": ["Tuition Fee Details\nAcademic Year 2021 - 2022\nAdmission Categories / Curse\nConvener\nB-Category\nNRI\nBE / BTECH\nRs. 1,34,000 *\nRs. 1,34,000 *\nSs,ooo\nME / MTECH\nRs. 1,51,600\nRs. 1,51,600\nMCA MBA\nRs.90,000 Rs.85,000\nRs.90,000 Rs.85,000"]
+    },
+
+    {"tag": "goodbye",
+      "patterns": ["cya","See you later","Goodbye","I am leaving","Have a Good Day","bye","see ya"],
+      "responses": ["Sad to see you go :(","Talk you later","Goodbye"]
+    },
+
+    {"tag": "invalid",
+     "patterns": ["","gvsd","asbhk"],
+     "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"]
+     },
+     {
+      "tag": "events",
+      "patterns": ["Do you have any upcoming events?", "What events do you have for freshmen?", "Are there any extracurricular activities?"],
+      "responses": ["We have various events throughout the year such as the Shruthi, club events etc.. We also offer a wide range of extraction"]
+     }
+]}
+
